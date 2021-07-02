@@ -26,6 +26,13 @@ nav  a{
     text-decoration: none;
 
 }
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: none;
+    
+}
+
 .produtos{
     width: 940px;
     margin: 0 auto;
@@ -41,6 +48,17 @@ nav  a{
     box-sizing: border-box; /* faz o width ficar definitivo na pagina */
     border: #000 2px solid;
     border-radius: 12px;
+} 
+
+.produtos li:hover{
+    border-color:#c78c19;
+}
+
+.produtos li:active{
+    border-color: #088c19;     
+}
+.produtos li:hover h2{
+    font-size: 34px;
 }
 .produtos h2{
     font-size: 30px;

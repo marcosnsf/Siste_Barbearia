@@ -59,7 +59,23 @@ form label, form legend{
 .checkbox{
     margin: 20px 0;
 }
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:1s all;
+}
+.enviar:hover{
+    background-color: darkorange;
+    transform: scale(1.2) rotate(360deg);
 
+}
 /* Fim conteudo  */
 
 /* Footer */
@@ -76,3 +92,4 @@ footer{
  margin-top: 20px;
 }
 /* Fim footer */
+

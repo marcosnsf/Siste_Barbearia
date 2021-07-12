@@ -1,3 +1,4 @@
+/*Começo navbar*/
 header{
     background: #bbbb;
     padding: 20px 0;
@@ -32,54 +33,38 @@ nav a:hover{
     text-decoration: none;
     
 }
-#banner {
+/*Fim navbar*/
+
+/* Banner */
+.banner {
 	width:100%;
 }
-
+/*----------*/
+/*Começo Conteudo*/
 .principal{
-	background: #CCCCCC;
-	padding: 30px;
+
 }
 
-.titulo-principal {
-	padding-left: 20px;
+.titulo-princial{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+.principal p{
+    margin:  0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.imagembeneficios{
+    width: 60%;
 }
 
-.titulo-centralizado {
-	text-align: center
-}
-
-p {
-	text-align: center;
-}
-
-#missao {
-	font-size: 20px
-}
-
-em strong {
-	color: #FF0000;
-}
-
-.itens {
-	font-style: italic
-}
-
-.beneficios {
-	background: #FFFFFF;
-	padding: 20px;
-}
-#itens {
-	display: inline-block;
-	vertical-align: top;
-	width: 20%;
-	margin-right: 15%;
-}
-
-.imagembeneficios {
-	width: 50%;
-}
-
+/*Fim Conteudo*/
+/*Começo Footer*/ 
 footer{
     text-align: center;
     background:url(bg.jpg);
@@ -92,3 +77,4 @@ footer{
  font-size: 13px;
  margin-top: 20px;
 }
+/*Fim Footer*/ 

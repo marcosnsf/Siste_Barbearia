@@ -73,8 +73,21 @@ form label, form legend{
 }
 .enviar:hover{
     background-color: darkorange;
-    transform: scale(1.1) skewx(8deg);
+    transform: scale(1.1);
 
+}
+table{
+    margin: 20px 0 40px;
+}
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: solid 1px black;
+    padding: 8px 12px;
 }
 /* Fim conteudo  */
 

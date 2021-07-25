@@ -1,1 +1,6 @@
-teste de diff
+teste de branch
+
+teste de diff antes de commit 
+
+
+teste de diff --name-only

@@ -1,0 +1,77 @@
+<!-- https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seletores avançados</title>
+</head>
+    <style>
+        div{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .container{
+            width: 90%;
+            margin: 0 auto;
+            border: 2px solid black;
+            padding: 16px;
+            border-radius: 8px;
+        }
+        div.container > h2{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        body{
+            margin-top: 20px;
+        }
+        h2{
+            text-transform: uppercase;
+        }
+        main > p {
+            background-color: red;
+        }
+    
+        img ~ p {
+            background-color: yellow;
+        }
+        img + p {
+            background-color: blue;
+            color: white;
+        }
+        .principal p:not(#teste){
+            background-color: orange;
+            font-size: 20px;
+            text-transform: uppercase;
+        }
+    </style>
+    <body> 
+        <div class="container">
+            <h2>seletores avançados - formatado</h2>
+            <main>
+                <p>qualquer coisas</p>
+                <img src="" alt="">
+                <p>qualquer coisa em azul</p>
+                <p>qualquer coisa</p>
+            </main>
+
+            <section class="principal">
+                <p id="teste">qualquer coisa</p>
+                <p>qualquer coisa</p>
+                <p id="teste">qualquer coisa</p>
+                <p>qualquer coisa</p>
+                <p id="teste">qualquer coisa</p>
+                <p>qualquer coisa</p>
+                <p id="teste">qualquer coisa</p>
+                <p>qualquer coisa</p>
+            </section>
+        </div> 
+            <div>
+                <h2>seletores avançados </h2>
+            </div>
+
+    </body>
+</html>

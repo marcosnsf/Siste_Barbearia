@@ -1,6 +1,6 @@
 teste de branch
 
-teste de diff antes de commit 
+teste de diff antes de commit a
 
 
 teste de diff --name-only

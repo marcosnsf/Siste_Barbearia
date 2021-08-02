@@ -170,7 +170,7 @@ td, th {
  content: "[";
 }
 .titulo-principal::after{
-content: ".";
+content: "]";
 }
 p::first-line{
 	font-style: italic;

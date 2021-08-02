@@ -14,7 +14,13 @@ div{
     padding: 16px;
     border-radius: 8px;
 }
-div.container > h2{
+hr{ 
+    height: 2px;
+    background-color: red;
+    border-left: 0;
+    border-right: 0;
+}
+div.box > h2{
     background-color: black;
     color: white;
     text-align: center;

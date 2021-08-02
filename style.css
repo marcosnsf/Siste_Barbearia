@@ -167,10 +167,13 @@ td, th {
 	font-weight: bold;
 }
 .titulo-principal::before{
- content: "[";
+ content: " 💈  ";
 }
 .titulo-principal::after{
-content: "]";
+content: "  💈 ";
+} 
+.itens::before{
+	content: "★ ";
 }
 p::first-line{
 	font-style: italic;

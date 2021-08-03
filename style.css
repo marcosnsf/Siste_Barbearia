@@ -221,7 +221,7 @@ p::first-line{
 .beneficios{
 	padding: 3em 0;
 	background: #888888;
-	/*box-shadow: 10px 10px rgb(0, 0 ,0 );sombra para box*/
+	box-shadow: 10px 10px rgb(0, 0 ,0 );	/*sombra para box*/
 }
 .conteudo-beneficios{
 	width: 640px;

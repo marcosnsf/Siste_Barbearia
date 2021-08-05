@@ -238,13 +238,13 @@ p::first-line{
 .itens:first-child{
 	font-weight: bold;
 }
-.imagembeneficios {
+.imagem-beneficios {
 	width: 60%;
 	opacity: 1;
 	box-shadow: 10px 10px 0 #000;
 
 }
-.imagembeneficios:hover{
+.imagem-beneficios:hover{
 	opacity: 0.3;
 	transition: 400ms;
 }
@@ -255,7 +255,16 @@ p::first-line{
 }
 
 @media screen and (max-width:480px){
-	body{
-		background-color: red;
-	}
+.caixa,.principal,.conteudo-beneficios,.mapa-conteudo,.video{
+	width: auto;
+}
+h1{
+	text-align: center;
+}
+nav{
+	position: static;
+}
+.lista-beneficios, .imagem-beneficios{
+	width: 100%;
+}
 }

@@ -162,6 +162,8 @@ td, th {
 	font-size: 2em;
 	margin: 0 0 1em;
 	clear: left;
+	/*text-shadow: 2px 2px 2px #000 ; sombra em texto*/
+
 }
 .titulo-principal::first-letter{
 	font-weight: bold;
@@ -219,6 +221,7 @@ p::first-line{
 .beneficios{
 	padding: 3em 0;
 	background: #888888;
+	box-shadow: 10px 10px rgb(0, 0 ,0 );	/*sombra para box*/
 }
 .conteudo-beneficios{
 	width: 640px;
@@ -237,9 +240,22 @@ p::first-line{
 }
 .imagembeneficios {
 	width: 60%;
+	opacity: 1;
+	box-shadow: 10px 10px 0 #000;
+
+}
+.imagembeneficios:hover{
+	opacity: 0.3;
+	transition: 400ms;
 }
 
 .video{
 	width: 560px;
 	margin: 2em auto;
+}
+
+@media screen and (max-width:480px){
+	body{
+		background-color: red;
+	}
 }

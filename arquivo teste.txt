@@ -7,4 +7,5 @@ teste de diff --name-only
 
 teste de commit remoto 
 
-começando estudo 05/08
+
+teste troca de conta para acesso remoto

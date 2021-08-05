@@ -113,6 +113,22 @@ footer{
         width: auto;
         color: black;
     }
-   
+    main, form{
+        margin-left:8px ;
+    }
+    select,option{
+        width: 22%;
+        text-align: center;
+    }
+   .enviar{
+        margin-left:-8px ;
+        width: 70%;
+   }
+   h1{
+       text-align: center;
+   }
+   nav{
+       position: static;
+   }
 }
 

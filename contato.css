@@ -1,5 +1,5 @@
 body{
-	font-family: 'Montserrat', sans-serif;
+	font-family:'Montserrat', sans-serif;
 }
 /* Header */
 header{
@@ -108,7 +108,11 @@ footer{
  margin-top: 20px;
 }
 /* Fim footer */
-@media screen and (max-width:480px;) {
-    
+@media screen and (max-width:480px) {
+    .caixa, main{
+        width: auto;
+        color: black;
+    }
+   
 }
 

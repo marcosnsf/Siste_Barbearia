@@ -88,3 +88,19 @@ footer{
  font-size: 13px;
  margin-top: 20px;
 }
+@media screen and (max-width:480px){
+    .caixa, main .produtos{
+        width: auto;
+        margin:  0 auto;
+    }
+    .produtos li{
+        width: auto;
+        margin: 8px 0;
+    }
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+}
